@@ -1,0 +1,50 @@
+.main {
+  padding: 0px 350px;
+  animation: 1s show ease;
+}
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.nav {
+  display: flex;
+  align-items: center;
+}
+.titleNav {
+  font-size: xx-small;
+  color: rgba(0, 0, 0, 0.4);
+}
+.title {
+  margin-top: 50px;
+}
+.childrenWrapper {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+.svg {
+  margin: 0px 5px;
+}
+
+@media (max-width: 1200px) {
+  .main {
+    padding: 20px;
+  }
+  .nav {
+    display: none;
+  }
+  .childrenWrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .title {
+    font-size: large;
+  }
+}

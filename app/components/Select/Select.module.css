@@ -1,0 +1,34 @@
+.ul {
+  display: flex;
+  list-style-type: none;
+  cursor: pointer;
+  gap: 20px;
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-bottom: 10px;
+}
+.li {
+  border-radius: 10px;
+  padding: 10px 20px;
+  height: min-content;
+  font-size: small;
+  border: 1px solid transparent;
+  white-space: nowrap;
+}
+.inactive {
+  border: 1px solid red;
+}
+.inactive:hover{
+  background-color: red;
+  color:white;
+  transition: 0.5s;
+}
+.active {
+  background-color: red;
+  color:white
+}
+.active:hover{
+  background-color: rgb(0, 0, 0);
+  transition: 0.5s;
+}

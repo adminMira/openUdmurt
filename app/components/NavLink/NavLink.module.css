@@ -1,0 +1,17 @@
+.link {
+  display: flex;
+  align-items: center;
+  font-size: xx-small;
+  font-weight: 500;
+}
+.hoverLink:hover {
+  color: red;
+}
+
+@media (max-width: 800px) {
+.link{
+  font-size:medium;
+  font-weight: 400;
+  width: 100%;
+}
+}

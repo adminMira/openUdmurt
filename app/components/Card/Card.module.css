@@ -1,0 +1,84 @@
+.cardWrapper {
+  min-height: 500px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+}
+.border {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+.hover:hover {
+  transition: 0.5s;
+  border-color: red;
+}
+.info {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.infoText {
+  font-size: xx-small;
+  margin-left: 10px;
+  font-weight: 500;
+  width: 80%;
+}
+.city {
+  position: absolute;
+  top: 0;
+  background-color: red;
+  color: white;
+  border-radius: 15px;
+  margin: 10px;
+  font-size: x-small;
+  padding: 5px 10px;
+  z-index: 1;
+}
+.information {
+  margin-top: 10px;
+  font-size: x-small;
+}
+.image {
+  border-radius: 10px;
+  height: 180px;
+  width: 100%;
+}
+
+.title {
+  margin-top: 10px;
+  font-size: small;
+  height: 5%;
+}
+.contact {
+  margin-top: 20px;
+}
+.bgImage {
+  position: relative;
+}
+
+.image:hover {
+  opacity: 0.9;
+  transition: 0.2s;
+}
+
+@media (max-width: 1000px) {
+  .cardWrapper {
+    width: 50%;
+  }
+}
+@media (max-width: 500px) {
+  .cardWrapper {
+    width: 100%;
+  }
+}
+@media (max-width: 2000px) {
+  .title {
+    height: max-content;
+  }
+}
+@media (min-width: 1000px) {
+  .cardWrapper {
+    width: 25%;
+  }
+}

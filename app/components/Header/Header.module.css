@@ -1,0 +1,96 @@
+.ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.li {
+  border-bottom: 1px solid transparent;
+  transition: 0.1s;
+  padding-bottom: 2px;
+}
+.links:hover {
+  border-bottom: 1px solid whitesmoke;
+}
+.nav {
+  margin: 20px 0px;
+}
+  .header {
+    margin: 15px 50px;
+  }
+.headerMain {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  z-index: 3;
+  width: 100%;
+  color: white;
+  
+}
+.hr {
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 1px;
+}
+.hoverLink {
+  position: absolute;
+  transition: 0.5s;
+  background-color: red;
+  height: 4px;
+  top: 98px;
+  border-radius: 15px;
+}
+.chidrenMenu {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  transition: 0.5s;
+  width: 50%;
+  top: 90px;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navMobile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menuMobile {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  background-color: rgb(20, 20, 20);
+  height: 100vh;
+  min-width: 60vw;
+  box-shadow: -300px 0px 0px 200px rgb(0, 0, 0, 0.5);
+  z-index: 2;
+  animation: 0.5s show ease;
+  padding: 30px;
+}
+.close {
+  margin-left: 100%;
+}
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 800px) {
+  .ul {
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+  }
+  .li {
+    color: white;
+    width: 100%;
+  }
+}

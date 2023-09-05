@@ -1,0 +1,122 @@
+{
+  "Ресторан Penthouse": {
+    "city": "Ижевск",
+    "about": "Ресторан располагается на 14 этаже бизнес-центра «Парус»",
+    "imageUrl": "https://visitudmurtia.org/upload/resize_cache/iblock/759/366_242_2/xc18fk6gjleez1lxhgtabke2eicxutp8.jpg"
+  },
+  "Энотека и винный бар Wine Snob": {
+    "city": "Ижевск",
+    "about": "Это уникальный формат заведения на 16 мест в центре Ижевска, гдекаждую неделю проходят винные и гастрономические вечера.",
+    "imageUrl": "https://visitudmurtia.org/upload/resize_cache/iblock/0f1/366_242_2/elpudk4l7at6gkexzizoirg5vapjob9l.jpg"
+  },
+  "Ресторан Вино и мясо": {
+    "city": "Ижевск",
+    "about": "Ресторан Вино и Мясо – это добротный и респектабельный для гостей,знающих вкус жизни",
+    "imageUrl": "https://visitudmurtia.org/upload/resize_cache/iblock/a01/366_242_2/a1j41hzf42s0jkb19psk7ju6dyx6c4lg.jpg"
+  },
+  "Бар Пряный кролик": {
+    "city": "Ижевск",
+    "about": "В оригинальном интерьере бара – инсталляции со старинными предметамии столовыми приборами",
+    "imageUrl": "https://visitudmurtia.org/upload/resize_cache/iblock/1f9/366_242_2/9xet26v30o8g2wh2h9jhv1n5q5nnar9i.jpg"
+  },
+  "Бар Дело не в вине": {
+    "city": "Ижевск",
+    "about": "Большой выбор вина, вкусная еда и приятная атмосфера в самом центрегорода",
+    "imageUrl": "https://visitudmurtia.org/upload/resize_cache/iblock/02e/366_242_2/bj998qqd4konwu3o1869w03uk2e8mde9.png"
+  },
+  "Ресторан Кипарис": {
+    "city": "Ижевск",
+    "about": "Ресторан, бар и караоке — три основных направления заведения",
+    "imageUrl": "https://visitudmurtia.org/upload/resize_cache/iblock/883/366_242_2/g82it0ort57y7tykfhpcraf6r89iplg5.jpg"
+  },
+  "Ресторан Каре": {
+    "city": "Ижевск",
+    "about": "Современный городской ресторан, завоевавший доверие и предпочтениесвоих гостей качеством кухни и обслуживания",
+    "imageUrl": "https://visitudmurtia.org/upload/resize_cache/iblock/68a/366_242_2/q93y9udufyuqgkovz015t1ov9j05zhva.jpg"
+  },
+  "Ресторан WOLDEMAR": {
+    "city": "Глазов",
+    "about": "У нас Вы можете попробовать всегда свежее пиво, сваренное насобственной пивоварне Woldemar",
+    "imageUrl": "https://visitudmurtia.org/upload/resize_cache/iblock/3cb/366_242_2/7uksud1kkcxgwp62zjemt81q63z1zpf8.jpg"
+  },
+  "Арт-кафе Бульвар": {
+    "city": "Глазов",
+    "about": "Арт-кафе Бульвар место для приятных встреч, долгих разговоров,празднования самых-самых любимых праздников, для счастливопроведенных минут",
+    "imageUrl": "https://visitudmurtia.org/upload/resize_cache/iblock/502/366_242_2/pu1y0tysrcgavw1al4jf7kfso9cst4ux.jpg"
+  },
+  "Ресторан ISLAND": {
+    "city": "Воткинск",
+    "about": "Lounge Terrace ISLAND - уникальное для Удмуртии кафе с прекрасным, влюбое время года, панорамным видом на набережную города Воткинска",
+    "imageUrl": "https://visitudmurtia.org/upload/resize_cache/iblock/9cc/366_242_2/x6ks5tbanm1wihl3tcefv5oyef92vvrx.jpg"
+  },
+  "Ресторан Старая Башня": {
+    "city": "Сарапул",
+    "about": "Ресторан для проведения свадеб, банкетов и встреч с друзьями",
+    "imageUrl": "https://visitudmurtia.org/upload/resize_cache/iblock/17d/366_242_2/kkqrkh5clxiepheryqrmlwb3qu005v35.jpg"
+  },
+  "Кафе-парк «Теремок»": {
+    "city": "Ижевск",
+    "about": "  Это уникальное живописное место, расположенное в самом красивом  месте, в сердце парка им.Кирова.",
+    "imageUrl": "https://visitudmurtia.org/upload/resize_cache/iblock/a17/366_242_2/gt4gn3eyf6sax6p31awwymjfpadux7g1.jpg"
+  },
+  "Кафе «УТКИ в городе»": {
+    "city": "Ижевск",
+    "about": "  «УТКИ в городе» - двухэтажное пространство на берегу пруда в  районе «Нового Города» ",
+    "imageUrl": "https://visitudmurtia.org/upload/resize_cache/iblock/f0c/366_242_2/ghph314s0qs8kgk70f7jqlpy4puu8e30.jpg"
+  },
+  "Кафе «Дэлет»": {
+    "city": "Ува",
+    "about": "Современное кафе с удмуртским колоритом.",
+    "imageUrl": "https://visitudmurtia.org/upload/resize_cache/iblock/d52/366_242_2/konhqgvqq6iowqflc9n8hkrmmua5yo4y.jpg"
+  },
+  "Бар El Presidente": {
+    "city": "Ижевск",
+    "about": "El Presidente - тёплое, доброе и атмосферное место, где тебе всегдабудет хорошо. И совсем не важно, пришел ли ты к нам в гости скомпанией или один.",
+    "imageUrl": "https://visitudmurtia.org/upload/resize_cache/iblock/4e3/366_242_2/2p949r3zbvozxi2j8kkai4jbenyr6ap1.jpg"
+  },
+  "Кафе Frensis": {
+    "city": "Ижевск",
+    "about": "Frensis – это разнообразие вкусов и поводов, собранных в одномместе. Здесь можно встретиться с друзьями, назначить свидания,отметить семейный праздник. Здесь можно провести время наедине ссобой, поработать, встретиться с партнерами или коллегами в уютной икомфортной обстановке.",
+    "imageUrl": "https://visitudmurtia.org/upload/resize_cache/iblock/619/366_242_2/iijyxbp02aprtc2b0r8ttp284gauv3nk.jpg"
+  },
+  "Семейное кафе Mama Pizza": {
+    "city": "Ижевск",
+    "about": "Mama Pizza – сеть кафе с домашней итальянской кухней. Мы искреннелюбим пиццу, пасту, лимонады солнечного оттенка и тот самыйтирамису. И каждый день помогаем нашим гостям встречаться, общатьсяи влюбляться в такую Италию.",
+    "imageUrl": "https://visitudmurtia.org/upload/resize_cache/iblock/e9b/366_242_2/prpr17yjirnombrxe4a6cqhxwx4dlrfn.jpg"
+  },
+  "Фудхолл Терминал F": {
+    "city": "Ижевск",
+    "about": "Первый фудхолл в центре Ижевска — TERMINAL F. ",
+    "imageUrl": "https://visitudmurtia.org/upload/resize_cache/iblock/d86/366_242_2/usiypjyq2hrlmstt0o9v3jw19bq357bh.jpg"
+  },
+  "Пивной ресторан Welten": {
+    "city": "Ижевск",
+    "about": "«Welten» – единственный в своем роде пивной ресторан, который поправу может быть признан «народным».",
+    "imageUrl": "https://visitudmurtia.org/upload/resize_cache/iblock/a25/366_242_2/gt3owikenm1w38iss7tixysvod3ewndn.jpg"
+  },
+  "Кофейня Кофе Семь": {
+    "city": "Ижевск",
+    "about": "Кофе Семь – это самая первая кофейня Ижевска.",
+    "imageUrl": "https://visitudmurtia.org/upload/resize_cache/iblock/24b/366_242_2/kdkrnfvuiyuh657237mgysg9kdksuta2.jpg"
+  },
+  "Ресторан READER'S PUB": {
+    "city": "Ижевск",
+    "about": "Посещение ресторана «Reader's Pub» перенесет Вас в историческуюатмосферу старой Великобритании XIX века. Залы ресторана оформленыиз высококачественных сортов древесины, натуральной кожи и камня.",
+    "imageUrl": "https://visitudmurtia.org/upload/resize_cache/iblock/eff/366_242_2/0rnygo3h5wr3h7l25oeqqv6h3hlnmjt8.jpg"
+  },
+  "Ресторан The Taste": {
+    "city": "Ижевск",
+    "about": "The Taste, расположенный в самом сердце города - это не просторесторан.",
+    "imageUrl": "https://visitudmurtia.org/upload/resize_cache/iblock/ec9/366_242_2/31o5fn23f7bc2v9rj0tysc0r37ulrm3v.jpg"
+  },
+  "Этнокомплекс Бобровая долина": {
+    "city": "Ижевск",
+    "about": "В Бобровой долине вы почувствуете себя как дома.",
+    "imageUrl": "https://visitudmurtia.org/upload/resize_cache/iblock/b3f/366_242_2/gpr73cmwkuryvmhpzzubw1r897sxb67h.jpg"
+  },
+  "Кофейня Чашка": {
+    "city": "Ижевск",
+    "about": "Кофейня «Чашка» – отличное место для романтического свидания,завтрака в выходной всей семьей, посиделок добрых друзей",
+    "imageUrl": "https://visitudmurtia.org/upload/resize_cache/iblock/2f1/366_242_2/w0v8sj590czvurpg07curet9tdzlzzfd.jpg"
+  }
+}
