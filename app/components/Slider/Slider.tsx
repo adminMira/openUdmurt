@@ -48,7 +48,7 @@ const Slider: FC = () => {
         >
           <div className={style.videoContainer}>
             <video
-              src="/udm.mp4"
+              src="/video.mp4"
               autoPlay
               muted
               loop
