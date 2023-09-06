@@ -12,7 +12,7 @@ const Footer = () => {
         height={45}
       />
       <h4>для хакатона</h4>
-      <a href="https://github.com/adminMira" style={{textDecoration:"underline"}}>Эщэщэщ</a>
+      <a href="https://github.com/adminMira/openUdmurt" style={{textDecoration:"underline"}} target="_blank">Эщэщэщ</a>
     </div>
   );
 };

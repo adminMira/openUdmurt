@@ -55,7 +55,7 @@ const Header = () => {
   }, []);
 
   return (
-    <header className={`${isMain ? style.headerMain : style.header}`}>
+    <header className={`${isMain ? style.headerMain : ""}`}>
       {windowSize && windowSize!.innerWidth >= 800 ? (
         <>
           <nav className={style.nav}>
@@ -118,7 +118,7 @@ const Header = () => {
                 style={{
                   zIndex: 1,
                   position: "absolute",
-                  top: 75,
+                  top: 70,
                   left: `${position[0] + position[1] / 3}px`,
                 }}
                 xmlns="http://www.w3.org/2000/svg"
@@ -221,6 +221,15 @@ const Header = () => {
                     >
                       <NavLink path={value.path} title={key} />
                     </li>
+                    {value.children?.map((child) => (
+                      <li
+                        key={child[0]}
+                        className={style.li}
+                        onClick={() => setIsOpenMobileMenu(false)}
+                      >
+                        <NavLink path={child[1]} title={child[0]} />
+                      </li>
+                    ))}
                   </>
                 ))}
               </ul>

@@ -15,9 +15,7 @@
 .nav {
   margin: 20px 0px;
 }
-  .header {
-    margin: 15px 50px;
-  }
+
 .headerMain {
   position: absolute;
   left: 0%;
@@ -25,7 +23,6 @@
   z-index: 3;
   width: 100%;
   color: white;
-  
 }
 .hr {
   background-color: rgba(0, 0, 0, 0.3);
@@ -36,7 +33,7 @@
   transition: 0.5s;
   background-color: red;
   height: 4px;
-  top: 98px;
+  top: 83px;
   border-radius: 15px;
 }
 .chidrenMenu {
@@ -47,7 +44,7 @@
   right: 0;
   transition: 0.5s;
   width: 50%;
-  top: 90px;
+  top: 83px;
   border-radius: 10px;
   padding: 20px;
   display: flex;
@@ -92,5 +89,6 @@
   .li {
     color: white;
     width: 100%;
+    margin-top: 10px;
   }
 }

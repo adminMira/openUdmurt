@@ -57,7 +57,7 @@ const Card = ({
               />
             </svg>
 
-            <h5 className={style.infoText} >{address}</h5>
+            <h5 className={style.infoText}>{address}</h5>
           </div>
         </div>
       )}
@@ -123,7 +123,7 @@ const Card = ({
                 </g>{" "}
               </g>
             </svg>
-            <a className={style.infoText} href={site} target="_blank">
+            <a className={style.infoText} href={`https://${site}`} target="_blank">
               {site}
             </a>
           </div>

@@ -39,7 +39,30 @@
     padding: 50px 200px;
 }
 .titleAbout{
-    margin-bottom: 80px;
+    margin: 80px 0;
     font-weight: 400;
     font-size: 50px;
+}
+
+@media (max-width:1000px) {
+    .title, .titleAbout{
+       width: 100%;
+       text-align: center;
+       font-size: x-large;
+    }
+    .subtitle{
+        text-align: center;
+    }
+    .about{
+        padding: 10px;
+    }
+    .info{
+        flex-direction: column;
+    }
+    .itemInfo{
+        width: 100%;
+    }
+    .itemTitle{
+        margin-top: 10px;
+    }
 }

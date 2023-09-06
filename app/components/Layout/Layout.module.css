@@ -13,6 +13,7 @@
 .nav {
   display: flex;
   align-items: center;
+  margin-top: 10px;
 }
 .titleNav {
   font-size: xx-small;

@@ -8,9 +8,9 @@
   color: red;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 950px) {
 .link{
-  font-size:medium;
+  font-size:13px;
   font-weight: 400;
   width: 100%;
 }

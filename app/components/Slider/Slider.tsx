@@ -42,14 +42,20 @@ const Slider: FC = () => {
         pagination={{ clickable: true }}
         style={{ height: "100vh" }}
       >
-        <SwiperSlide style={{ position: "relative" }}>
-          <video
-            src="/udm.mp4"
-            autoPlay
-            muted
-            loop
-            style={{ width: "100%" }}
-          ></video>
+        <SwiperSlide
+          className={style.slide}
+          style={{ backgroundColor: "rgb(0,0,0,.3)" }}
+        >
+          <div className={style.videoContainer}>
+            <video
+              src="/udm.mp4"
+              autoPlay
+              muted
+              loop
+              className={style.video}
+            ></video>
+          </div>
+
           <div className={style.info}>
             <h1 className={style.title}>
               <span style={{ color: "red" }}>Открывай</span> Удмуртию
@@ -61,12 +67,17 @@ const Slider: FC = () => {
           </div>
         </SwiperSlide>
         {information.map(({ title, imageUrl, infoText }) => (
-          <SwiperSlide style={{ position: "relative" }}>
-            <img className={style.img} src={imageUrl} alt="" />
-            <div className={style.info}>
-              <h1 className={style.title}>{title}</h1>
-              <p className={style.infoText}>{infoText}</p>
-            </div>
+          <SwiperSlide
+            style={{
+              background: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+              url(${imageUrl})`,
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+            }}
+            className={style.slide}
+          >
+            <h1 className={style.title}>{title}</h1>
+            <p className={style.infoText}>{infoText}</p>
           </SwiperSlide>
         ))}
       </Swiper>
