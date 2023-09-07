@@ -28,7 +28,9 @@
   background-color: red;
   color:white
 }
-.active:hover{
-  background-color: rgb(0, 0, 0);
-  transition: 0.5s;
+@media (min-width: 800px) {
+  .active:hover {
+    background-color: rgb(0, 0, 0);
+    transition: 0.5s;
+  }
 }
