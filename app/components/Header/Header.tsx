@@ -156,7 +156,7 @@ const Header = () => {
         <nav className={style.navMobile}>
           <NavLink path="/">
             <Image
-              src="https://visitudmurtia.org/local/templates/visitudmurtia/public/assets/img/logo-color.svg"
+              src="/LOGO_1.svg"
               alt="logo"
               width={174}
               height={45}
