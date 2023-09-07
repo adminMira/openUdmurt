@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className={style.footer}>
       <Image
-        src="https://visitudmurtia.org/local/templates/visitudmurtia/public/assets/img/logo-color.svg"
+        src="/LOGO_footer.svg"
         alt="logo"
         width={174}
         height={45}
