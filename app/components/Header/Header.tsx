@@ -63,7 +63,7 @@ const Header = () => {
               <li>
                 <NavLink path="/">
                   <Image
-                    src="https://visitudmurtia.org/local/templates/visitudmurtia/public/assets/img/logo-color.svg"
+                    src="/LOGO.svg"
                     alt="logo"
                     width={174}
                     height={45}
