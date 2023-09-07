@@ -68,7 +68,7 @@ const cities = [
   "Постольский",
   "Варзи-Ятчи",
 ];
-const title = "Что посмотерть";
+const title = "Что посмотреть";
 
 const page = () => {
   return <SelectPage selectItems={cities} title={title} data={places} />;
