@@ -63,7 +63,7 @@ const Header = () => {
               <li>
                 <NavLink path="/">
                   <Image
-                    src="/LOGO.svg"
+                    src="/LOGO_1.svg"
                     alt="logo"
                     width={174}
                     height={45}
