@@ -63,7 +63,7 @@ const Header = () => {
               <li>
                 <NavLink path="/">
                   <Image
-                    src="/LOGO_1.svg"
+                    src={isMain ? "/LOGO.svg":"/LOGO_1.svg"}
                     alt="logo"
                     width={174}
                     height={45}
@@ -156,7 +156,7 @@ const Header = () => {
         <nav className={style.navMobile}>
           <NavLink path="/">
             <Image
-              src="/LOGO_1.svg"
+              src={isMain ? "/LOGO.svg":"/LOGO_1.svg"}
               alt="logo"
               width={174}
               height={45}
