@@ -48,7 +48,7 @@ const Slider: FC = () => {
         >
           <div className={style.videoContainer}>
             <video
-              src="/video.mp4"
+              src="https://rr3---sn-f5f7kn7z.c.drive.google.com/videoplayback?expire=1694182261&ei=RQH7ZMRy6brG1g_O3LugCA&ip=84.201.246.215&cp=QVROVkJfUVJUQlhPOmpCR1JsSlVpVkJ5YzZzSkpDX2dPX1FsbFRDcllxUmVRTUUxUnllVVl5QXM&id=c6970f0de950d352&itag=18&source=webdrive&requiressl=yes&mh=DI&mm=32&mn=sn-f5f7kn7z&ms=su&mv=u&mvi=3&pl=23&sc=yes&ttl=transient&susc=dr&driveid=1qw0q9RqGommVgxVz2EMJXcinrueDiq3d&app=explorer&mime=video/mp4&vprv=1&prv=1&dur=210.999&lmt=1694171452377092&mt=1694170572&subapp=DRIVE_WEB_FILE_VIEWER&txp=0006224&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,vprv,prv,dur,lmt&sig=AOq0QJ8wRgIhAKRzjD6vqNyyCKsoXmtOLGdRXv82AmhQFv5yJVDgL2mYAiEA2JTqWq6K25boBEQXkyke6gajT8lI4OmSH07bG8LxB1k=&lsparams=mh,mm,mn,ms,mv,mvi,pl,sc&lsig=AG3C_xAwRQIgDkXIWX5UJT0E8wR4V1M4B2uMzqIlqUIkM0UufMR9Zp4CIQDpRjG4TTh7upA8rO9PY6oOnsLrjuPFfM5a4TzhPXvJVA==&cpn=V4BTUJgaLGU8YnMu&c=WEB_EMBEDDED_PLAYER&cver=1.20230904.00.00"
               autoPlay
               muted
               loop
