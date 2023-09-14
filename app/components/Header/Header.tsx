@@ -30,6 +30,8 @@ function getWindowSize() {
   if (typeof window !== "undefined") {
     const { innerWidth, innerHeight } = window;
     return { innerWidth, innerHeight };
+  } else {
+    return { innerWidth: Infinity, innerHeight: Infinity }
   }
 }
 const Header = () => {
@@ -55,7 +57,7 @@ const Header = () => {
   }, []);
 
   return (
-    <header className={`${isMain ? style.headerMain : ""}`}>
+    <header className={`${isMain ? style.headerMain : style.header}`}>
       {windowSize && windowSize!.innerWidth >= 800 ? (
         <>
           <nav className={style.nav}>
@@ -63,7 +65,7 @@ const Header = () => {
               <li>
                 <NavLink path="/">
                   <Image
-                    src={isMain ? "/LOGO_footer.svg":"/LOGO_1.svg"}
+                    src={isMain ? "/LOGO_footer.svg" : "/LOGO_1.svg"}
                     alt="logo"
                     width={174}
                     height={45}
@@ -75,9 +77,8 @@ const Header = () => {
                   <li
                     key={key}
                     id="links"
-                    className={`${style.li} ${
-                      !isMain ? style.active : style.links
-                    }`}
+                    className={`${style.li} ${!isMain ? style.active : style.links
+                      }`}
                     onMouseOver={(e) => {
                       setPosition([
                         e.currentTarget.offsetLeft,
@@ -156,7 +157,7 @@ const Header = () => {
         <nav className={style.navMobile}>
           <NavLink path="/">
             <Image
-              src={isMain ? "/LOGO_footer.svg":"/LOGO_1.svg"}
+              src={isMain ? "/LOGO_footer.svg" : "/LOGO_1.svg"}
               alt="logo"
               width={174}
               height={45}
