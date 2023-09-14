@@ -1,7 +1,7 @@
 .link {
   display: flex;
   align-items: center;
-  font-size: xx-small;
+  font-size: small;
   font-weight: 500;
 }
 .hoverLink:hover {
