@@ -4,6 +4,9 @@
   justify-content: space-around;
   align-items: center;
 }
+.header{
+  position: relative;
+}
 .li {
   border-bottom: 1px solid transparent;
   transition: 0.1s;
