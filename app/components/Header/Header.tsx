@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useState } from "react";
+import {  useState } from "react";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
 import NavLink from "../NavLink/NavLink";
@@ -26,17 +26,9 @@ const navigation: Navigation = {
   },
 };
 
-function getWindowSize() {
-  if (typeof window !== "undefined") {
-    const { innerWidth, innerHeight } = window;
-    return { innerWidth, innerHeight };
-  } else {
-    return { innerWidth: Infinity, innerHeight: Infinity }
-  }
-}
+
 const Header = () => {
   const pathname = usePathname();
-  const [windowSize, setWindowSize] = useState(getWindowSize());
   const [position, setPosition] = useState<number[]>([]);
   const [isOpenMobileMenu, setIsOpenMobileMenu] = useState<boolean>(false);
   const [currentChildren, setCurrentChildren] = useState<string[][] | null>(
@@ -44,22 +36,11 @@ const Header = () => {
   );
   const isMain = pathname === "/" || pathname === "/about";
 
-  useEffect(() => {
-    function handleWindowResize() {
-      setWindowSize(getWindowSize());
-    }
-
-    window.addEventListener("resize", handleWindowResize);
-
-    return () => {
-      window.removeEventListener("resize", handleWindowResize);
-    };
-  }, []);
 
   return (
     <header className={`${isMain ? style.headerMain : style.header}`}>
-      {windowSize && windowSize!.innerWidth >= 800 ? (
-        <>
+   
+        <div className={style.navDesktop}>
           <nav className={style.nav}>
             <ul className={style.ul}>
               <li>
@@ -152,8 +133,8 @@ const Header = () => {
               </div>
             </>
           )}
-        </>
-      ) : (
+        </div>
+      
         <nav className={style.navMobile}>
           <NavLink path="/">
             <Image
@@ -237,7 +218,6 @@ const Header = () => {
             </div>
           )}
         </nav>
-      )}
     </header>
   );
 };
