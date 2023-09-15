@@ -1,3 +1,9 @@
+сайт на хостинге: https://open-udmurt.vercel.app/
+
+гитхаб : https://github.com/adminMira/openUdmurt
+
+макет в фигме: https://www.figma.com/file/klGJhhcNrLFQ8NhJzdWYI4?type=design
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
