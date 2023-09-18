@@ -1,5 +1,8 @@
 сайт на хостинге: https://open-udmurt.vercel.app/
 
+видео:
+https://disk.yandex.ru/i/4QfwVxfsNGtDpA
+
 гитхаб : https://github.com/adminMira/openUdmurt
 
 макет в фигме: https://www.figma.com/file/klGJhhcNrLFQ8NhJzdWYI4?type=design
